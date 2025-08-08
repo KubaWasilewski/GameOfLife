@@ -14,6 +14,7 @@
 Alive cells are white and dead cells are grey.
 
 ## Usage
+
 Cells can be made alive or dead by click or drag of left mouse button.
 
 Game can be paused with key press 'P'.
@@ -23,6 +24,7 @@ Game can be restarted with key press 'R'.
 Game has 3 modes of refresh speed ranging from 1000ms to 50ms and can be selected with key press '1', '2', '3'.
 
 ## Windows Compilation
+
 Make sure cmake, mingw32 and g++ are installed.
 
 Make and navigate to build directory
