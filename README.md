@@ -1,4 +1,9 @@
 # Conway's Game of Life
+
+![MyCGOFs](https://github.com/user-attachments/assets/024c210c-b97d-4d4d-99d6-ae2f9b80cf5e)
+
+"Gosper glider gun" in my implementation of Game of Life.
+
 ## Rules of the game
 
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
@@ -9,19 +14,20 @@
 Alive cells are white and dead cells are grey.
 
 ## Usage
-Cells can be made alive or dead by press or drag of left mouse button.
+Cells can be made alive or dead by click or drag of left mouse button.
 
 Game can be paused with key press 'P'.
 
 Game can be restarted with key press 'R'.
 
-Game has 3 modes of refresh speed ranging from 1000ms to 50ms and can be selected with key press '1', '2', '3'
+Game has 3 modes of refresh speed ranging from 1000ms to 50ms and can be selected with key press '1', '2', '3'.
 
 ## Windows Compilation
 Make sure cmake, mingw32 and g++ are installed.
 
-Navigate to build directory
+Make and navigate to build directory
 ```
+mkdir build
 cd build
 ```
 Create Makefile
